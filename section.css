@@ -10,7 +10,7 @@
 .book-of-the-day-main-column{
     display: flex;   
     flex-direction: column;
-    align-items: center;
+    align-items: start;
 }
 
 
@@ -25,16 +25,18 @@
     font-size: 15px;
     color: rgba(0,0,0,0.5);
     margin-bottom: 10px;
+    margin-left: 25px;
 }
 
 .book-of-the-day-main-book-star-rank{
     color:#ffc107;
     margin-bottom: 10px;
+    margin-left: 15px;
 }
 
 .book-of-the-day-main-cover-img{
     border: none;
-    width: 100px;
+    width: 200px;
     /* height: 150px; */ /* 이미지의 크기는 가로,세로 중 한개만 설정하는것이 좋습니다. */
     border-radius: 10px;
     margin-right: 20px;
